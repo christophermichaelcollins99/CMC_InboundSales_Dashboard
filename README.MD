@@ -22,7 +22,7 @@ Screenshot showing the default dashboard filtering.
 Screenshot showing 2 call centers filtered and a different dynamic metric selected. (The trending charts show the difference in filters more dramatically since the sample data was randomized by day and employee.  When rolled up, the randomization becomes more evened out.)
 
 ![](Screens/datamodel.png)  
-Screenshot showing the Power BI model using a star schema.  The dynamic metric table is for the Field Parameter.  The DIM Dates was created with DAX.  DIM_Agents relates to the fact tables on Employee ID and the DIM_Dates relates to the fact tables on interaction date.
+Screenshot showing the Power BI model using a star schema.  The dynamic metric table is for the Field Parameter.  The DIM_Dates table was created with DAX.  DIM_Agents relates to the fact tables on Employee ID and the DIM_Dates relates to the fact tables on interaction date.
 
 ## Python
 ![](Screens/python1.png)  
