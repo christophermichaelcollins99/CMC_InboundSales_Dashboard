@@ -34,7 +34,7 @@ Screenshot showing the raw output of the python code, which was then imported in
 
 # Process
 ## Create sample data with python
-I cannot use enterprise inbound sales data for a public portfolio project, so I created my own random sample data.  
+To give me raw data to visualize on my dashboard, I created my own random sample data with python that imitates the datasets I have worked with over the past 18 years doing sales reporting for a corporation.  
 The jupyter notebook .ipnyb file can be found in the repository.  
 1) Create a call center list dataframe.  This is because every employee reports up to a call center.  It could not be randomized or the hierarchy would not make sense.  
 2) Use the call center dataframe to create a managers dataframe.  The script created 50 managers using names from the Faker library and randomly assigned the manager their call center.  I also used Faker to randomize their hire date within a certain time frame.  
