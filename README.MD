@@ -71,5 +71,6 @@ I needed to do a small bit of work to recreate the star/data warehouse schema fr
 6) Created the call center overview performance visual.  I opted for a data table to show more data in a clear format.  I added conditional formatting icons to the metrics to make the high and low performers stand out.  
 7) I created the "Top 5" and "Bottom 5" Supervisors visuals using the field parameter so the user could see outliers in any of the metrics.  Often the top performers would be recognized and the bottom performers would be coached.
 
+A real corporate dashboard would likely contain additional pages with more detailed data on various subjects.  However, as a proof of concept done in a single day, I think this is enough to demonstrate my experience with Power BI and reporting in general as a seasoned business intelligence developer.
 
 
