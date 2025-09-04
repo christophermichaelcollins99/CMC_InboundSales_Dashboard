@@ -41,12 +41,12 @@ and the DIM_Dates relates to the fact tables on interaction date.*
 <BR>
 <BR>
 ![](Screens/python2.png)  
-*Screenshot showing the raw output of the python code, which was then imported into Power BI via Power Query.*
+*Screenshot showing the raw output of the Python code, which was then imported into Power BI via Power Query.*
 
 
 # Process
-## Create sample data with python
-To give me raw data to visualize on my dashboard, I created my own random sample data with python that imitates the datasets I have worked with over the past 18 years doing sales reporting for a corporation.  
+## Create sample data with Python
+To give me raw data to visualize on my dashboard, I created my own random sample data with Python that imitates the datasets I have worked with over the past 18 years doing sales reporting for a corporation.  
 The jupyter notebook .ipnyb file can be found in the repository.  
 1) Create a call center list dataframe.  			
 	- This is because every employee reports up to a call center. 
@@ -71,7 +71,7 @@ The jupyter notebook .ipnyb file can be found in the repository.
 	- I used the numpy library to randomize the numerical data with a normal distribution, and the percentage data with a beta distribution.  
 	- I used means and variances you would likely find in real data based on my experience reporting for inbound call centers.
 9) I then exported the call and sales table as a CSV.  
-	- I would use Power BI to split them into the more Star-schema oriented "FACT_SALES" and "FACT_CALLS" as they were seperate measurements that were only together in python to be more efficient.  
+	- I would use Power BI to split them into the more Star-schema oriented "FACT_SALES" and "FACT_CALLS" as they were seperate measurements that were only together in Python to be more efficient.  
 
 # Import data into Power BI with Power Query
 The Power BI file and CSV were too large to post to GitHub's vanilla environment, so I used screenshots to show the Dashboard.  
